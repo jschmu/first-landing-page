@@ -1,0 +1,174 @@
+.body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-left: 75px;
+}
+
+.info {
+    font-size: x-large;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 75px;
+}
+
+li {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0px 10px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 100px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-basis: 300px;
+}
+
+.hero-body {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: 100px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.hero-container button {
+    border: none;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-title {
+    padding: 75px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.info-body {
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+    margin-bottom: 110px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+}
+
+.subtext {
+    font-size: 18px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    height: 375px;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-name {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: right;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 5px;
+    height: 150px;
+    align-items: center;
+    gap: 60px;
+}
+
+.cta-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-left: 70px;
+}
+
+button .btn2 {
+    border-color: #F9FAF8;
+}
+
+.cta-box button {
+    border-color: #E5E7EB;
+    margin-right: 70px;
+}
+
+.footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 30px;
+    text-align: center;
+}
